@@ -9,76 +9,73 @@ EGY-Guide is envisioned as a user-friendly web and mobile application that provi
 
 <h1>🎯 Objective</h1>
 
-The primary objective of EGY-Guide is to:
-*   **Promote Tourism:** Make exploring Egypt easier and more engaging for international and domestic tourists.
-*   **Preserve Heritage:** Digitally document and promote Egypt's vast historical and cultural heritage.
-*   **Empower Local Businesses:** Provide a platform for local guides, shops, and restaurants to reach a wider audience.
-*   **Build a Community:** Create a space for people to share their experiences and insights about Egypt.
+The main objectives of EGY-Guide are to:
 
-<h1>👥 Team Members</h1>
+- **Promote Tourism:** Make exploring Egypt easier and more engaging for international and domestic tourists.  
+- **Preserve Heritage:** Digitally document and promote Egypt’s vast historical and cultural heritage.  
+- **Empower Local Businesses:** Provide a platform for local guides, shops, and restaurants to reach a wider audience.  
+- **Build a Community:** Create a space for people to share their experiences and insights about Egypt.
 
-<p>We are a dedicated team working to bring EGY-Guide to life:</p>
+---
 
-*   **[Ashraf Wael](https://github.com/Ashrafwa13)** - *Leader*
-*   **[Khalid Samy](https://github.com/khalidsamy)** 
-*   **[Omar Iraqi](https://github.com/OmarIraqii)**  
-*   **[Yasmin Awod Ebrahim](https://github.com/yasmin20s)** 
-*   **[ Sama Osama Mohamed](https://github.com/SamaOssama)** 
+## 👥 Team Members
 
-<h1>📋 Scope</h1>
+We are a dedicated team working together to bring **EGY-Guide** to life:
 
-<h3>The project will be developed in phases:</h3>
+- [**Ashraf Wael**](https://github.com/Ashrafwa13) – *Team Leader*  
+- [**Khalid Samy**](https://github.com/khalidsamy)  
+- [**Omar Iraqi**](https://github.com/OmarIraqii)  
+- [**Yasmin Awod Ebrahim**](https://github.com/yasmin20s)  
+- [**Sama Osama Mohamed**](https://github.com/SamaOssama)
+- [**Shahd hisham Muhammed**](https://github.com/shahdhisham14)
+- [**Nada Mostafa Atef Elzorkany**](https://github.com/zorkany5)
 
-<h4> Phase 1: Minimum Viable Product (MVP)</h4>
-*   Develop a responsive web application.
-*   Feature a curated list of major attractions (e.g., Pyramids, Egyptian Museum).
-*   Include basic information: descriptions, locations, images, and opening hours.
-*   Implement a simple, interactive map view.
+---
 
-<h4>Phase 2: Enhanced Features</h4>
-*   User authentication and profiles.
-*   User reviews and rating system.
-*   Personalized itinerary planner.
-*   Content Management System (CMS) for admins.
+## 📋 Project Scope
 
-<h4> Phase 3: Advanced Functionality</h4>
-*   Native mobile applications (iOS & Android).
-*   Offline mode for maps and key information.
-*   Integration with local service providers (e.g., ticket booking, tour guides).
-*   Augmented Reality (AR) features for historical sites.
+The project will be developed in **three main phases**:
 
-<h1>🗺️ Project Plan (High-Level Roadmap)</h1>
+### 🧩 Phase 1 – Minimum Viable Product (MVP)
+- Develop a responsive web application.  
+- Feature a curated list of major attractions (e.g., Pyramids, Egyptian Museum).  
+- Include basic details: descriptions, locations, images, and opening hours.  
+- Implement a simple, interactive map view.
 
-*   <h3>Q1 2025: Planning & Design</h3>
-    *   Finalize requirements and scope.
-    *   Create wireframes and UI/UX mockups.
-    *   Set up development environment and repository structure.
-*   <h3>Q2 2025: MVP Development</h3>
-    *   Develop core backend infrastructure and API.
-    *   Build the main frontend components and map integration.
-    *   Populate the database with initial data for key attractions.
-*   <h3>Q3 2025: Testing & Deployment</h3>
-    *   Conduct alpha and beta testing with a closed group of users.
-    *   Deploy the MVP to a production environment.
-    *   Gather user feedback for improvements.
-*   <h3>Q4 2025: Post-MVP Development</h3>
-    *   Start development on Phase 2 features based on user feedback.
-    *   Plan for mobile app development.
-# React + Vite
+### ⚙️ Phase 2 – Enhanced Features
+- Add user authentication and profiles.  
+- Enable reviews and rating systems.  
+- Include a personalized itinerary planner.  
+- Develop an admin Content Management System (CMS).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🚀 Phase 3 – Advanced Functionality
+- Launch native mobile applications (iOS & Android).  
+- Support offline mode for maps and key information.  
+- Integrate with local services (e.g., ticket booking, tour guides).  
+- Add Augmented Reality (AR) experiences for historical sites.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🗺️ Project Roadmap
 
-## React Compiler
+| Quarter | Focus Area | Key Deliverables |
+|----------|-------------|------------------|
+| **Q1 2025** | Planning & Design | Define requirements, design UI/UX mockups, set up development environment |
+| **Q2 2025** | MVP Development | Backend & API setup, frontend components, map integration, initial data population |
+| **Q3 2025** | Testing & Deployment | Alpha & beta testing, MVP launch, user feedback collection |
+| **Q4 2025** | Post-MVP Development | Implement Phase 2 features, begin mobile app planning |
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🧠 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React + Vite  
+- **Backend:** Node.js / Express  
+- **Database:** MongoDB  
+- **Map Integration:** Leaflet or Google Maps API  
+- **Version Control:** GitHub  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📜 License
+This project is developed for educational and non-commercial purposes by the **EGY-Guide Team**.
