@@ -1,0 +1,23 @@
+{
+  "name": "egy-guide-back",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EGY-guide12/EGY-Guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EGY-guide12/EGY-Guide/issues"
+  },
+  "homepage": "https://github.com/EGY-guide12/EGY-Guide#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
